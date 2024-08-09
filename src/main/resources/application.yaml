@@ -1,0 +1,17 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/lavacao
+    username: root
+    password: root
+
+
+# SpringDoc and Swagger UI configuration
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
